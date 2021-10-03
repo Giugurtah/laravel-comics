@@ -1,0 +1,62 @@
+//* Foglio di stile contenete proprietà relative all'aspetto degli elementi
+
+/* Sizing properties */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.h-100 {
+    height: 100%;
+}
+
+/* Font properties */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $normal;
+}
+.fs_small {
+    font-size: $small;
+}
+.fw_600 {
+    font-weight: 600;
+}
+.txt_uppercase {
+    text-transform: uppercase;
+}
+
+/* Color properties */
+.primary_color {
+    background-color: $primary_color;
+}
+.primary_colo_text {
+    color: $primary_color;
+}
+.secondary_color {
+    background-color: $secondary_color;
+}
+.neutral_color_text {
+    color: $neutral_color;
+}
+.brand_color {
+    background-color: $brand_color;
+}
+.brand_color_text {
+    color: $brand_color;
+}
+
+/* Display properties */
+.d_inline_block {
+    display: inline-block;
+}
+.row_basic {
+    @include row();
+}
+.row_aligned {
+    @include row($content: space-between, $items: center);
+}
+.row_centred {
+    @include row($items: center);
+}
+.row_justified {
+    @include row($content: space-between);
+}

@@ -1,0 +1,6 @@
+//* Foglio di stile contenente tutti i mixin
+@mixin row($content: unset, $items: unset) {
+    display: flex;
+    justify-content: $content;
+    align-items: $items;
+}

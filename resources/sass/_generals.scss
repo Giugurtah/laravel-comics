@@ -1,0 +1,16 @@
+//* Foglio di stile contenente proprietà di reset
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+body {
+    min-height: 100vh;
+}
