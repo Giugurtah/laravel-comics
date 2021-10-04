@@ -39,7 +39,7 @@
                         <li>DC Power Visa</li>
                     </ul>
                 </div>
-                <img src="{{ asset('style/images/dc-logo-bg.png')}}" alt="">
+                <img src="{{ asset('images/dc-logo-bg.png')}}" alt="">
             </div>
         </div>
     </section>
@@ -51,15 +51,14 @@
                 <div class="row_centred">
                     <div class="d_inline_block brand_color_text fw_600 txt_uppercase">Follow us</div>
                     
-                    <img src="{{asset('style/images/footer-facebook.png')}}" alt="">
-                    <img src="{{asset('style/images/footer-twitter.png')}}" alt="">
-                    <img src="{{asset('style/images/footer-youtube.png')}}" alt="">
-                    <img src="{{asset('style/images/footer-pinterest.png')}}" alt="">
-                    <img src="{{asset('style/images/footer-periscope.png')}}" alt="">
+                    <img src="{{asset('images/footer-facebook.png')}}" alt="">
+                    <img src="{{asset('images/footer-twitter.png')}}" alt="">
+                    <img src="{{asset('images/footer-youtube.png')}}" alt="">
+                    <img src="{{asset('images/footer-pinterest.png')}}" alt="">
+                    <img src="{{asset('images/footer-periscope.png')}}" alt="">
                 </div>
             </div>
         </div>
     </section>
-    
-    <script src=" {{asset('js/footerNav.js')}}"></script>
+
 </footer>

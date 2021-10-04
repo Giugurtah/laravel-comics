@@ -1,6 +1,6 @@
 <header class="container primary_color_text fw_600">
     <div class="row_justified fs_small txt_uppercase">
-        <img src="{{ asset('style/images/dc-logo.png') }}" alt="">
+        <img src="{{ asset('images/dc-logo.png') }}" alt="">
         <ul>
             <ul>
                 <li class=""><a href="#">Characters</a></li>

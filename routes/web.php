@@ -14,31 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = [
-        'footerNav' => [
-            [
-                'name' => 'facebook',
-                'link' => 'footer-facebook.png'
-            ],
-            [
-                'name' => 'twitter',
-                'link' => 'footer-twitter.png'
-            ],
-            [
-                'name' => 'youtube',
-                'link' => 'footer-youtube.png'
-            ],
-            [
-                'name' => 'pinterest',
-                'link' => 'footer-pinterest.png'
-            ],
-            [
-                'name' => 'periscope',
-                'link' =>  'footer-periscope.png'
-            ]
-            ]
-        ];
-    return view('layouts/main', $data);
+    $comics = config('comics');
+    return view('home', ['comics' => $comics]);
 });
 
 

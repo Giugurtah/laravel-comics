@@ -133,13 +133,13 @@ header .active :after {
 }
 
 .jumbotron {
-  background-image: url("images/jumbotron.jpg");
+  background-image: url("/images/jumbotron.jpg");
   background-size: cover;
   height: 250px;
 }
 
 #footer_nav {
-  background-image: url("images/footer-bg.jpg");
+  background-image: url("/images/footer-bg.jpg");
   height: 300px;
   overflow: hidden;
 }
@@ -175,4 +175,50 @@ header .active :after {
 #footer_socials img {
   margin-left: 15px;
   height: 30px;
+}
+
+main #content {
+  padding-top: 30px;
+  position: relative;
+}
+
+main #content .main_header {
+  padding: 10px 20px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+main #content .card_display {
+  flex-wrap: wrap;
+}
+
+main #content .button {
+  padding: 10px 40px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 15px;
+}
+
+.comic_card {
+  flex-basis: calc(100% / 6);
+  padding: 15px;
+}
+
+.comic_card h5 {
+  margin-top: 10px;
+}
+
+.comic_card .square {
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+}
+
+.comic_card .square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }

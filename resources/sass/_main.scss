@@ -1,0 +1,49 @@
+//* Styling del main
+main {
+    #content {
+      padding-top: 30px;
+      position: relative;
+  
+      .main_header {
+        padding: 10px 20px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+      }
+  
+      .card_display {
+        flex-wrap: wrap;
+      }
+  
+      .button {
+        padding: 10px 40px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+  
+        margin-bottom: 15px;
+      }
+    }
+}
+
+.comic_card {
+    flex-basis: calc(100% / 6);
+    padding: 15px;
+
+    h5 {
+        margin-top: 10px;
+    }
+
+    .square {
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .square:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
