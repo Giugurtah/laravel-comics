@@ -1,4 +1,6 @@
 //* Foglio di stile contenente gli import di tutti gli altri fogli di stile 
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
 @import "variables";
 @import "mixins";
 @import "generals";
@@ -8,3 +10,4 @@
 @import "jumbotron";
 @import "footer";
 @import "main";
+@import "comic";

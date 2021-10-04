@@ -8,8 +8,8 @@
         <section class="card_display row_basic">
             @foreach($comics as $comic)
             <div class="comic_card">
-                <div class="square" style="background-image: url('{{ ($comic['thumb']) }}');">
-                </div>
+                <a href="/comic" class="square d_inline_block" style="background-image: url('{{ ($comic['thumb']) }}')">
+                </a>
                 <h5 class="txt_uppercase">{{ $comic['series'] }}</h5>
             </div>
             @endforeach

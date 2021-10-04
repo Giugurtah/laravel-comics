@@ -1,0 +1,29 @@
+
+#comic {
+    #ruler {
+        background-color: $brand-color;
+        height: 50px;
+
+        padding-bottom: 10px;
+    }
+    
+    .comic_img {
+        position: absolute;
+        top: -220px;
+    
+        border: 1px solid white;
+        height: 200px;
+        width: auto;
+    }
+
+    .container_small {
+        padding-top: 40px;
+    }
+
+    .price_display {
+        background-color: rgb(89, 184, 93);
+        height: 40px;
+
+        border-radius: 0.1rem;
+    }
+}
