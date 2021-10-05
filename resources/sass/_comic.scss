@@ -7,6 +7,10 @@
         padding-bottom: 10px;
     }
     
+    .comic_display {
+        margin-bottom: 100px;
+    }
+
     .comic_img {
         position: absolute;
         top: -220px;
@@ -25,5 +29,15 @@
         height: 40px;
 
         border-radius: 0.1rem;
+    }
+
+    .adv_img {
+        height: 200px;
+        width: auto;
+    }
+
+    .info_display {
+        padding-bottom: 100px;
+        
     }
 }

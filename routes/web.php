@@ -18,9 +18,14 @@ Route::get('/', function () {
     return view('home', ['comics' => $comics]);
 });
 
-Route::get('/comic', function () {
+Route::get('/comic/{id}', function ($id) {
     $comics = config('comics');
-    return view('comic', ['comic' => $comics[0]]);
+    if(is_numeric($id) && $id >= 0 && $id<count($comics)) {
+        $comic = $comics[$id];
+    } else {
+        abort('404');
+    }
+    return view('comic', ['comic' => $comic]);
 });
 
 
